@@ -13,7 +13,8 @@ body {
   align-items: center;
   height: 100vh;
   text-align: center;
-  background: url(images/profile\ pics\ .png) no-repeat center center/ cover;
+  background: url(/assets/image_processing20200420-25423-11mnem.gif) no-repeat
+    center center/ cover;
 }
 
 .container {
@@ -39,10 +40,16 @@ body {
   border-radius: 15px;
   padding: 50px 40px;
   box-shadow: 0 0 10px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+
   .text-area {
-    font-size: 1.5rem;
-    line-height: 1.5;
+    font-size: 1.2rem;
+    line-height: 1.2;
   }
+
   .person {
     font-size: 1.6rem;
     color: red;
@@ -51,15 +58,20 @@ body {
   }
 }
 
-.button-area button {
-  background-color: #262626;
-  color: white;
-  font-size: 1.3rem;
-  padding: 10px 15px;
-  margin-top: 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  :active {
-    background-color: lightblue;
+.button-area {
+  button {
+    border: none;
+    box-shadow: 3px 3px 1px black;
+    background-color: #262626;
+    color: white;
+    font-size: 1.3rem;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 5ms ease-in-out;
+    &:active {
+      background-color: lightblue;
+    }
   }
 }
