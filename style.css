@@ -13,7 +13,7 @@ body {
   align-items: center;
   height: 100vh;
   text-align: center;
-  background: url(/assets/image_processing20200420-25423-11mnem.gif) no-repeat
+  background: url(assets/image_processing20200420-25423-11mnem.gif) no-repeat
     center center/ cover;
 }
 
@@ -44,12 +44,10 @@ body {
   justify-items: center;
   align-items: center;
   flex-direction: column;
-
   .text-area {
     font-size: 1.2rem;
     line-height: 1.2;
   }
-
   .person {
     font-size: 1.6rem;
     color: red;
